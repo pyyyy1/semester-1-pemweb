@@ -1,0 +1,76 @@
+/* Navbar */
+.navbar-brand {
+    font-family: Viga;
+    font-size: 32px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(asset/mount.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.jumbotron .display-5 {
+    color: white;
+    margin-top: 190px;
+    text-shadow: 1px 1px 7px rgba(0, 0, 0, 0.7);
+    font-size: 60px;
+    margin-bottom: 110px;
+}
+
+/* About */
+.about {
+    margin-top: 100px;
+}
+
+/* Info Panel */
+.info-panel {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin-top: -48px;
+    background-color: white;
+}
+
+/* Utility */
+.tombol {
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+/* Section */
+section {
+    min-height: 420px;
+}
+
+.portofolio {
+    margin-bottom: 80px;
+}
+
+/* DEKSTOP VERSION */
+@media (min-width: 992px) {
+    .navbar-brand, .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+    .nav-link {
+        margin-right: 5px;
+    }
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid rgb(32, 32, 202);
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .jumbotron {
+        margin-top: -75px;
+        height: 640px;
+    }
+
+    .jumbotron .display-5 {
+        font-size: 62px;
+    }
+}
